@@ -10,12 +10,5 @@ Objectives:
 
 Example output
 
-![image](https://user-images.githubusercontent.com/97081479/188298454-331ff13e-a865-4ddb-b601-493dd9b3b2c1.png)
+![image](https://user-images.githubusercontent.com/97081479/188298661-c8b27976-bda6-44c6-84f2-53e082e1e17e.png)
 
-![image](https://user-images.githubusercontent.com/97081479/188298466-a84baa19-a9da-41e6-a238-3c981e56ce48.png)
-
-![image](https://user-images.githubusercontent.com/97081479/188298473-98399f3c-56b9-4929-b177-bce43f38d419.png)
-
-![image](https://user-images.githubusercontent.com/97081479/188298485-437460cb-fafc-4fba-95bf-ecd29f833a77.png)
-
-![image](https://user-images.githubusercontent.com/97081479/188298491-2d35bc50-bf75-456c-9dc8-b7d114a14e1a.png)
