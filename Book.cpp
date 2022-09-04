@@ -5,7 +5,7 @@
 
 using std::stringstream;
 
-// default constructor
+// user defined default constructor
 Book::Book()
 {
     this->_title = "NoTitle";
@@ -13,9 +13,10 @@ Book::Book()
     this->_year = -1;
 }
 
+// user defined constructor
 Book::Book(const string &theTitle, const string &theAuthor, const int &theYear)
 {
-    this->_title = theTitle;
+    this->_title = theTitle;                                                       // use 'this' as implicit parameter
     this->_author = theAuthor;
     this->_year = theYear;
 }
