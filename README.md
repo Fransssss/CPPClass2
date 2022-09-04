@@ -10,12 +10,13 @@ Objectives:
 
 Example output
 
-![image](https://user-images.githubusercontent.com/97081479/188298661-c8b27976-bda6-44c6-84f2-53e082e1e17e.png)
+![image](https://user-images.githubusercontent.com/97081479/188298812-4b70a620-78ce-475b-af55-2e187f160dbe.png)
 
-![image](https://user-images.githubusercontent.com/97081479/188298693-891c9b58-c6cd-49d5-a29d-bf851642ca78.png)
+![image](https://user-images.githubusercontent.com/97081479/188298818-cd22a08f-8aaf-4694-bb53-39a15dfaeabb.png)
 
-![image](https://user-images.githubusercontent.com/97081479/188298701-58d08ca1-d1f9-4f6c-9c1c-98d83acad36f.png)
+![image](https://user-images.githubusercontent.com/97081479/188298822-156c2362-f790-4cf6-a74b-092db708f27d.png)
 
-![image](https://user-images.githubusercontent.com/97081479/188298710-20c2fcda-9791-43a9-ae7a-83a024b0ed5f.png)
+![image](https://user-images.githubusercontent.com/97081479/188298831-e0bfabed-dcc5-4441-8c49-5095a0505d02.png)
 
-![image](https://user-images.githubusercontent.com/97081479/188298717-21559f44-08ac-42e6-86a2-1e3c0f0a8222.png)
+![image](https://user-images.githubusercontent.com/97081479/188298912-042b1710-d18e-435e-b3f5-e28dc5d80695.png)
+
