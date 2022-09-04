@@ -59,7 +59,7 @@ int main()
                     title = line.substr(stQuotePos, (ndQuotePos - stQuotePos) + 1);
                     // author
                     string author;
-                    author = line.substr(ndQuotePos + 1, (commaPos - ndQuotePos) - 1);
+                    author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 1);
                     // year
                     string strYear;
                     int year;
@@ -113,7 +113,7 @@ int main()
 
                             // author
                             string author;
-                            author = line.substr(ndQuotePos + 1, (commaPos - ndQuotePos) - 1);
+                            author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 1);
 
                             // year
                             string strYear;
