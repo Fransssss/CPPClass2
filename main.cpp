@@ -69,7 +69,8 @@ int main()
                     theBook = new Book(title, author, year);
                     cout << numberingLine << ". Title: " << theBook->GetTitle() << endl;
                     cout << "   Author: " << theBook->GetAuthor() << endl;
-                    cout << "   Year: " << theBook->GetYear() << endl << endl;
+                    cout << "   Year: " << theBook->GetYear() << endl;
+                    cout << "   " << theBook->lineJson() << endl << endl;
                     numberingLine++;
                 }
                 hasChoseOptOne = true;                                             // indicate user has seen database at least once
@@ -123,7 +124,8 @@ int main()
                             theBook = new Book(title, author, year);
                             cout << endl << numberPicked << ". Title: " << theBook->GetTitle() << endl;
                             cout << "   Author: " << theBook->GetAuthor() << endl;
-                            cout << "   Year: " << theBook->GetYear() << endl << endl;
+                            cout << "   Year: " << theBook->GetYear() << endl;
+                            cout << "   " << theBook->lineJson() << endl << endl;
                         }
                         numberLineToGet++;
                     }
