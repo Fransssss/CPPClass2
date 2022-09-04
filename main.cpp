@@ -23,10 +23,10 @@ using std::stoi;
 
 int main()
 {
-    string choice;                                                 // user choice
-    Book* theBook = nullptr;                                       // class pointer to new allocated memory
-    bool hasChoseOptOne = false;                                   // make sure user has chosen number one first
-    ifstream inFS;                                                 // input file stream
+    string choice;                                                               // user choice
+    Book* theBook = nullptr;                                                     // class pointer to new allocated memory
+    bool hasChoseOptOne = false;                                                 // make sure user has chosen number one first
+    ifstream inFS;                                                               // input file stream
     cout << endl << "== Famous Children Book Database ==" << endl;
     cout << "1. Display database" << endl;
     cout << "e. Exit" << endl;
@@ -59,7 +59,7 @@ int main()
                     title = line.substr(stQuotePos, (ndQuotePos - stQuotePos) + 1);
                     // author
                     string author;
-                    author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 1);
+                    author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 2);
                     // year
                     string strYear;
                     int year;
@@ -113,7 +113,7 @@ int main()
 
                             // author
                             string author;
-                            author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 1);
+                            author = line.substr(ndQuotePos + 2, (commaPos - ndQuotePos) - 2);
 
                             // year
                             string strYear;
