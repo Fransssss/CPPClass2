@@ -40,19 +40,19 @@ int main()
         {
             int numberingLine = 1;                                               // numbering line
             cout << endl << "= Famous Children Book =" << endl << endl;
-            inFS.open("../DatabaseChildrenBooks");                            // open file
+            inFS.open("../DatabaseChildrenBooks");                               // open file
             if (inFS.is_open())                                                  // check if file is open
             {
                 string line;                                                     // get each line one at a time
-                getline(inFS, line);                                       // skip subject(title, author, yera)
+                getline(inFS, line);                                             // skip subject(title, author, yera)
                 while (getline(inFS, line))
                 {
                     int stQuotePos = 0;                                           // pos of first quote
                     int ndQuotePos = 0;                                           // pos of second quote
                     int commaPos = 0;                                             // pos of comma
                     stQuotePos = line.find('"');
-                    ndQuotePos = line.find('"',stQuotePos + 1);            // start search from / after the position of first quote
-                    commaPos = line.find(',', ndQuotePos + 1);             // plus one to start from space after second quotes
+                    ndQuotePos = line.find('"',stQuotePos + 1);                  // start search from / after the position of first quote
+                    commaPos = line.find(',', ndQuotePos + 1);                   // plus one to start from space after second quotes
 
                     // title
                     string title;
@@ -93,7 +93,7 @@ int main()
                 string line;                                                       // line / data to display / the one that user request
                 cout << endl << "Input the number of line: ";
                 cin >> numberPicked;
-                inFS.open("../DatabaseChildrenBooks");                          // open file
+                inFS.open("../DatabaseChildrenBooks");                            // open file
                 if (inFS.is_open()) {
                     while (getline(inFS, line))
                     {
@@ -103,8 +103,8 @@ int main()
                             int ndQuotePos = 0;                                   // pos of second quote
                             int commaPos = 0;                                     // pos of comma
                             stQuotePos = line.find('"');
-                            ndQuotePos = line.find('"', stQuotePos + 1);   // start search from / after the position of first quote
-                            commaPos = line.find(',', ndQuotePos + 1);     // plus one to start from space after second quotes
+                            ndQuotePos = line.find('"', stQuotePos + 1);          // start search from / after the position of first quote
+                            commaPos = line.find(',', ndQuotePos + 1);            // plus one to start from space after second quotes
 
                             // title
                             string title;
