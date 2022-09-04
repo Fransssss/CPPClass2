@@ -13,8 +13,8 @@ private:
     string _author;
     int _year;
 public:
-    Book();
-    Book(const string& theTitle, const string& theAuthor, const int& theYear);
+    Book();                                                                                     // user defined default constructor
+    Book(const string& theTitle, const string& theAuthor, const int& theYear);                  // user defined constructor
     string GetTitle() const;
     string GetAuthor() const;
     int GetYear() const;
